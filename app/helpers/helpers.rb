@@ -2,7 +2,7 @@ class Helpers
 
   def self.current_user(session)
     #session hash as argument
-    @user1 = User.find(session_hash[:user_id])
+    @user1 = User.find(session[:user_id])
   end
   #
   #
